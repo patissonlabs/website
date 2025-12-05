@@ -1,4 +1,5 @@
 <script lang="ts">
+	import favicon from "$lib/assets/favicon.svg";
 	import { siteConfig } from "$lib/config";
 
 	const { title, description }: { title: string; description: string } = $props();
@@ -19,7 +20,7 @@
 	<meta name="twitter:card" content="summary_large_image" />
 	<meta name="twitter:image" content={siteConfig.ogImage} />
 
-	<link rel="icon" type="image/svg+xml" sizes="any" href={siteConfig.favicon} />
+	<link rel="icon" type="image/svg+xml" sizes="any" href={favicon} />
 	<link
 		rel="apple-touch-icon"
 		sizes="512x512"
