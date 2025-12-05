@@ -9,6 +9,6 @@ export const siteConfig = {
 		contact: `contact@${DOMAIN}`
 	},
 	ogImage: `${BASE_URL}/images/banner.png`,
-	favicon: `${BASE_URL}/images/logo_square_outline_bw.svg`,
+	favicon: `${BASE_URL}/favicon.svg`,
 	webManifest: `${BASE_URL}/manifest.json`
 };
