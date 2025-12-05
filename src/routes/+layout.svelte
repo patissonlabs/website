@@ -1,6 +1,5 @@
 <script lang="ts">
 	import { page } from "$app/state";
-	import favicon from "$lib/assets/favicon.svg";
 	import { locales, localizeHref } from "$lib/paraglide/runtime";
 
 	import "./layout.css";
